@@ -20,3 +20,13 @@ plugins: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
 permalink: /:title/
+
+authors:
+  george:
+    name: George Salu
+    display_name: george
+    gravatar: 
+    email: george.salu10@gmail.com
+    web: 
+    twitter: 
+    github: 
