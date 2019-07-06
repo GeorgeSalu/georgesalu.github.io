@@ -16,7 +16,7 @@ github_username:  GeorgeSalu
 paginate: 5
 theme-dark: false #Set to true to change to dark website theme
 
-plugins: [jekyll-paginate, kramdown]
+gems: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
 permalink: /:title/
