@@ -14,6 +14,7 @@ url: "https://georgesalu.github.io" # the base hostname & protocol for your site
 language: "pt-br"
 twitter_username: 
 github_username:  GeorgeSalu
+linkedin_username: george-salu-da-silva-a6b6658a
 paginate: 6
 theme-dark: false #Set to true to change to dark website theme
 
