@@ -11,6 +11,7 @@ email: george.salu10@gmail.com
 description: Programmer | Code
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://georgesalu.github.io" # the base hostname & protocol for your site
+language: "pt-br"
 twitter_username: 
 github_username:  GeorgeSalu
 paginate: 6
