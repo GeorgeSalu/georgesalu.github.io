@@ -21,6 +21,8 @@ gems: [jekyll-paginate, kramdown]
 markdown: kramdown
 permalink: /:title/
 
+date_format: "%d/%m/%Y"
+
 authors:
   george:
     name: George Salu
