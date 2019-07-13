@@ -17,6 +17,9 @@ github_username:  GeorgeSalu
 paginate: 6
 theme-dark: false #Set to true to change to dark website theme
 
+display-author-front-page: false # True if you need show author name and site on home page
+display-author-post-page: false # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
+
 gems: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
