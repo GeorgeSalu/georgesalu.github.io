@@ -12,9 +12,12 @@ description: Programmer | Code
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://georgesalu.github.io" # the base hostname & protocol for your site
 language: "pt-br"
+
 twitter_username: 
 github_username:  GeorgeSalu
 linkedin_username: george-salu-da-silva-a6b6658a
+disqus_username: lorem_ipsum
+
 paginate: 6
 theme-dark: false #Set to true to change to dark website theme
 
