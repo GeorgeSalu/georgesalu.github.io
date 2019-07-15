@@ -19,6 +19,7 @@ linkedin_username: george-salu-da-silva-a6b6658a
 disqus_username: lorem_ipsum
 
 paginate: 6
+paginate_path: "blog/:num"
 theme-dark: false #Set to true to change to dark website theme
 
 display-author-front-page: false # True if you need show author name and site on home page
