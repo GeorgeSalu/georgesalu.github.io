@@ -17,7 +17,7 @@ twitter_username:
 github_username:  GeorgeSalu
 linkedin_username: george-salu-da-silva-a6b6658a
 googleplus_username: 
-disqus_username: lorem_ipsum
+disqus_username: disqus_RddXqeUbaT
 
 paginate: 6
 paginate_path: "page/:num"
