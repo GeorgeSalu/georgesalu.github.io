@@ -35,6 +35,8 @@ date_format: "%d/%m/%Y"
 # exclude files if no need build
 exclude: ['package.json', 'node_modules', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock']
 
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
 
 authors:
   george:
