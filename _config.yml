@@ -5,7 +5,17 @@ author:
   email: "someone@somewebsite.somedomain"
   url: "https://georgesalu.github.io"
 
+language: "pt-br"
+
+twitter_username: 
+github_username:  GeorgeSalu
+linkedin_username: george-salu-da-silva-a6b6658a
+googleplus_username: 
+disqus_username: disqus_RddXqeUbaT
+
 baseurl: /
+
+date_format: "%d/%m/%Y"
 
 source: .
 destination: ./_site
