@@ -1,7 +1,7 @@
 title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+description: Programmer | Code
 author:
-  name: "SomeHacker"
+  name: Programmer | Code
   email: "someone@somewebsite.somedomain"
   url: "https://georgesalu.github.io"
 
@@ -10,7 +10,7 @@ baseurl: /
 source: .
 destination: ./_site
 permalink: /:title
-paginate: 3
+paginate: 5
 paginate_path: /page/:num/
 
 defaults:
@@ -28,4 +28,4 @@ plugins:
 
 # Custom variables
 owner : "SomeHacker"
-year : "2018"
+year : "2020"
