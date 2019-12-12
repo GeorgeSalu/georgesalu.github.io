@@ -1,50 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+title: Hacker-Blog
+description: "A Jekyll Blog Theme For Hackers"
+author:
+  name: "SomeHacker"
+  email: "someone@somewebsite.somedomain"
+  url: "https://georgesalu.github.io"
 
-# Site settings
-title: George Salu
-email: george.salu10@gmail.com
-description: Programmer | Code
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://georgesalu.github.io" # the base hostname & protocol for your site
-language: "pt-br"
+baseurl: /
 
-twitter_username: 
-github_username:  GeorgeSalu
-linkedin_username: george-salu-da-silva-a6b6658a
-googleplus_username: 
-disqus_username: disqus_RddXqeUbaT
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
 
-paginate: 6
-paginate_path: "page/:num"
-theme-dark: false #Set to true to change to dark website theme
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-display-author-front-page: false # True if you need show author name and site on home page
-display-author-post-page: false # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
+future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
 
-gems: [jekyll-paginate, kramdown]
-# Build settings
-markdown: kramdown
-permalink: /:title/
-
-date_format: "%d/%m/%Y"
-
-# exclude files if no need build
-exclude: ['package.json', 'node_modules', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock']
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-authors:
-  george:
-    name: George Salu
-    display_name: george
-    gravatar: 
-    email: george.salu10@gmail.com
-    web: 
-    twitter: 
-    github: GeorgeSalu
+# Custom variables
+owner : "SomeHacker"
+year : "2018"
