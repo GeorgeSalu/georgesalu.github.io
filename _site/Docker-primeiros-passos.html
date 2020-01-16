@@ -32,7 +32,7 @@
         <article>
   <h2>Docker primeiros passos</h2>
   <time datetime="2020-01-16T00:00:00-03:00" class="by-line">16 Jan 2020</time>
-  <p>O que é docker ?, bem docker é uma plataforma para criação, execução e deploy de containers, ele é um projeto open source escrito em go e hospedado no github.</p>
+  <p>O que é docker ?,docker é uma plataforma para criação, execução e deploy de containers, ele é um projeto open source escrito em go e hospedado no github.</p>
 
 <p><img src="assets/docker-iniciando/docker_00.png" alt="docker" /></p>
 
@@ -46,21 +46,20 @@
 
 <p>Agora tudo que precisamos e um terminal linux para fazer a instalação</p>
 
-<p><img src="assets/docker-iniciando/docker_02.png" alt="docker" /></p>
+<p>Abaixo o comando ira baixar o script pra sua maquina, eu estou baixando na minha area de trabalho mas vc pode colocar em qualquer lugar
+<img src="assets/docker-iniciando/docker_02.png" alt="docker" /></p>
 
-<p>Este comando ira baixar o script pra sua maquina, eu estou baixando na minha area de trabalho mas vc pode colocar em qualquer lugar</p>
+<p>Agora vamos executando o script 
+<img src="assets/docker-iniciando/docker_03.png" alt="docker" /></p>
 
-<p><img src="assets/docker-iniciando/docker_03.png" alt="docker" /></p>
-
-<p>Agora estamos executando o script</p>
-
-<p><img src="assets/docker-iniciando/docker_04.png" alt="docker" /></p>
+<p>Dependendo da sua internet a instalação pode demorar um pouco
+<img src="assets/docker-iniciando/docker_04.png" alt="docker" /></p>
 
 <p>Após o download e instalação do docker teremos a seguinte saida</p>
 
 <p><img src="assets/docker-iniciando/docker_05.png" alt="docker" /></p>
 
-<p>E pronto ja temos o docker instalado e rodando em nossa maquina, para facilitar nossa vida vamos incluir nosso usuario no grupo do docker (isso é necessário para conseguir usar o comando docker sem sudo) se vc observou bem o comando necessário para isso está no final da imagem acima</p>
+<p>E pronto já temos o docker instalado e rodando em nossa maquina, para facilitar nossa vida vamos incluir nosso usuario no grupo do docker (isso é necessário para conseguir usar o comando docker sem sudo) se vc observou bem o comando necessário para isso está no final da imagem acima</p>
 
 <p><img src="assets/docker-iniciando/docker_06.png" alt="docker" /></p>
 
@@ -118,8 +117,8 @@
   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
   var disqus_config = function () {
-    this.page.url = '//Yet-Another-Sample-Page';  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = '/Yet-Another-Sample-Page'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.page.url = '//Docker-primeiros-passos';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = '/Docker-primeiros-passos'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
   };
 
   (function () { // DON'T EDIT BELOW THIS LINE
