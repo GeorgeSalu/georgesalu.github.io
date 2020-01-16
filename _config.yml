@@ -32,7 +32,11 @@ defaults:
       layout: "post"
 
 future: true
-plugins:
+
+gems:
+  - jekyll-paginate
+
+plugins_dir:
   - jekyll-seo-tag
   - jekyll-paginate
 
