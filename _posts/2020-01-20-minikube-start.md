@@ -5,15 +5,15 @@ published: true
 
 Bom pessoal nosso objetivo é criar um cluster kubernetes, mas o que é kubernetes ?, em poucas palavras o kubernetes é um software open source mantido pelo google para orquestrar e gerenciar clusters de containers aqui usaremos como engine de containers o docker.
 
-O minikube é uma excelente ferramenta para testar e aprender a trabalhar com o kubernetes
+O minikube é uma excelente ferramenta para testar e aprender a trabalhar com o kubernetes.
 
 ![minikube](assets/minikube-start/minikube_kubernetes_00.png)
 
-a primeira etapa para criarmos um cluster kubernetes é instalar o kubectl, mas o que é kubectl ?, kubectl é o software resposavel por "conversar" com o cluster kubernetes a partir de um computador local
+a primeira etapa para criarmos um cluster kubernetes é instalar o kubectl, mas o que é kubectl ?, kubectl é o software resposavel por "conversar" com o cluster kubernetes a partir de um computador local.
 
 ![minikube](assets/minikube-start/minikube_kubernetes_01.png)
 
-dependendo da sua internet isso pode demorar um pouco
+dependendo da sua internet isso pode demorar um pouco.
 
 ![minikube](assets/minikube-start/minikube_kubernetes_02.png)
 
@@ -33,11 +33,11 @@ para fazer o cluster vamos usar o projeto open source minikube, o minikube vai u
 
 ![minikube](assets/minikube-start/minikube_kubernetes_06.png)
 
-antes de prosseguir vamos conferir se a virtualização esta liberada em nossa maquina com o seguinte comando `egrep -q 'vmx|svm' /proc/cpuinfo && echo yes || echo no`
+antes de prosseguir vamos conferir se a virtualização está liberada em nossa maquina com o seguinte comando `egrep -q 'vmx|svm' /proc/cpuinfo && echo yes || echo no`
 
 ![minikube](assets/minikube-start/minikube_kubernetes_07.png)
 
-depois que vimos que a virtualização esta habilitada vamos fazer a instalação do minikube
+depois que vimos que a virtualização está habilitada vamos fazer a instalação do minikube
 
 ![minikube](assets/minikube-start/minikube_kubernetes_08.png)
 
