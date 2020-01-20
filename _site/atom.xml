@@ -12,6 +12,71 @@
     </author>
     
       <item>
+        <title>Iniciando com minikube</title>
+        <description>&lt;p&gt;Bom pessoal nosso objetivo é criar um cluster kubernetes, mas o que é kubernetes ?, em poucas palavras o kubernetes é um software open source mantido pelo google para orquestrar e gerenciar clusters de containers aqui usaremos como engine de containers o docker.&lt;/p&gt;
+
+&lt;p&gt;O minikube é uma excelente ferramenta para testar e aprender a trabalhar com o kubernetes&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_00.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;a primeira etapa para criarmos um cluster kubernetes é instalar o kubectl, mas o que é kubectl ?, kubectl é o software resposavel por “conversar” com o cluster kubernetes a partir de um computador local&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_01.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;dependendo da sua internet isso pode demorar um pouco&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_02.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;apos fazer o download vamos torna o binário executável.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_03.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;agora basta movermos para o diretório /usr/local/bin/kubectl com isso terminámos a instalação do kubectl&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_04.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;kubectl version&lt;/code&gt; podemos ter as informações basicas do kubectl instalado&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_05.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;para fazer o cluster vamos usar o projeto open source minikube, o minikube vai um software de virtualização para criar um cluster kubernetes de um no único, aqui vamos usar o virtualbox para este processo, é bom lembrar que o minikube não é recomendado para ser usado em ambiente de produção, ele simula um cluster de no único com tudo o que é necessario já instalado e funcionando.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_06.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;antes de prosseguir vamos conferir se a virtualização esta liberada em nossa maquina com o seguinte comando &lt;code class=&quot;highlighter-rouge&quot;&gt;egrep -q &#39;vmx|svm&#39; /proc/cpuinfo &amp;amp;&amp;amp; echo yes || echo no&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_07.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;depois que vimos que a virtualização esta habilitada vamos fazer a instalação do minikube&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_08.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;apos fazer o processo do download e feita a instalação conseguiremos ver a versão do minikube instalado com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;minikube version&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_09.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;com o miniukube instalado vamos informar que iremos usar o virtualbox para virtualização&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_10.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;feito isso basta usar o camando &lt;code class=&quot;highlighter-rouge&quot;&gt;minikube start&lt;/code&gt; para criarmos o cluster, este processo pode demorar um pouco&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_11.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;com o cluster instalado e funcionando podemos usar o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;minikube status&lt;/code&gt; para obter informações do cluster&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/minikube-start/minikube_kubernetes_12.png&quot; alt=&quot;minikube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Isso é tudo, ja temos nosso cluster kubernetes local instalado e funcionando&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 20 Jan 2020 00:00:00 -0300</pubDate>
+        <link>//minikube-start</link>
+        <link href="/minikube-start"/>
+        <guid isPermaLink="true">/minikube-start</guid>
+      </item>
+    
+      <item>
         <title>Docker primeiros passos</title>
         <description>&lt;p&gt;O que é docker ?,docker é uma plataforma para criação, execução e deploy de containers, ele é um projeto open source escrito em go e hospedado no github.&lt;/p&gt;
 
