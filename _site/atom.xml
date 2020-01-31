@@ -13,7 +13,7 @@
     
       <item>
         <title>SDKMan — Gerenciando sdks na plataforma Java</title>
-        <description>&lt;p&gt;O grande objetivo do skdman é facilitar a instalação de ferramentas e ou linguagens que funcionam na jvm como as linguagens java, scala, groovy, kotlin entre outras mas e ferramentas como gradle, maven e etc&lt;/p&gt;
+        <description>&lt;p&gt;O grande objetivo do skdman é facilitar a instalação de ferramentas e ou linguagens que funcionam na jvm como as linguagens java, scala, groovy, kotlin e ferramentas como gradle, maven e etc, podemos encontrar o sdkman no site &lt;code class=&quot;highlighter-rouge&quot;&gt;https://sdkman.io/&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_00.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
@@ -37,7 +37,7 @@
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_05.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;o sdkman fara o download e instalação do jdk 13&lt;/p&gt;
+&lt;p&gt;com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;sdk install java 13.0.1.j9-adpt&lt;/code&gt; o sdkman fara o download e instalação do jdk 13&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_06.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
@@ -57,10 +57,11 @@
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_10.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;com o sdkman podemos instalar muitas outras linguagens e ferramentas do ecossistema da jvm, abaixo podemos ver todas as versões do gradle que conseguimos instalar com ajuda do sdkman&lt;/p&gt;
+&lt;p&gt;com o sdkman podemos instalar muitas outras linguagens como koltin, scala e ferramentas como maven e gradle, abaixo podemos ver todas as versões do gradle que conseguimos instalar com ajuda do sdkman&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_11.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;como podemos ver o sdkman facilita muito nossa vida.&lt;/p&gt;
 </description>
         <pubDate>Fri, 31 Jan 2020 00:00:00 -0300</pubDate>
         <link>//sdman</link>
