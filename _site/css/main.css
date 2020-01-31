@@ -63,7 +63,9 @@ body {
   color: #eaeaea;
   font-size: 18px;
   line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; }
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  text-align: justify;
+  text-justify: inter-word; }
 
 /* General & 'Reset' Stuff */
 .container {
