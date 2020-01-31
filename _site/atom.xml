@@ -140,46 +140,46 @@
 
 &lt;p&gt;&lt;img src=&quot;assets/docker-iniciando/docker_00.png&quot; alt=&quot;docker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;no github podemos encontrar muitas informações sobre o projeto como por exemplo o que será implementado no futuro no software, changelog de versões e muitas outras informações, abaixo podemos ver o changelog da versao 19.03.5 (2019-11-13) última de 2019&lt;/p&gt;
+&lt;p&gt;no github podemos encontrar muitas informações sobre o projeto como por exemplo o que será implementado no futuro no software, changelog de versões e muitas outras informações, abaixo podemos ver o changelog da versao 19.03.5 (2019-11-13) última de 2019.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/docker-iniciando/docker_11.png&quot; alt=&quot;docker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Existem varias formas de fazer a instalação do docker irei mostrar a vc’s como fazer a instalação via um script shell que automatiza esta tarefa para varias distribuições linux, ele esta disponibilizado de forma open source no github neste endereço &lt;a href=&quot;https://github.com/docker/docker-install&quot;&gt;docker script instalação&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Existem varias formas de fazer a instalação do docker irei mostrar a vc’s como fazer a instalação via um script shell que automatiza esta tarefa para varias distribuições linux, ele esta disponibilizado de forma open source no github neste endereço &lt;a href=&quot;https://github.com/docker/docker-install&quot;&gt;docker script instalação&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/docker-iniciando/docker_01.png&quot; alt=&quot;docker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Agora tudo que precisamos e um terminal linux para fazer a instalação&lt;/p&gt;
+&lt;p&gt;Agora tudo que precisamos e um terminal linux para fazer a instalação.&lt;/p&gt;
 
-&lt;p&gt;Abaixo o comando ira baixar o script pra sua maquina, eu estou baixando na minha area de trabalho mas vc pode colocar em qualquer lugar
+&lt;p&gt;Abaixo o comando ira baixar o script pra sua maquina, eu estou baixando na minha area de trabalho mas vc pode colocar em qualquer lugar.
 &lt;img src=&quot;assets/docker-iniciando/docker_02.png&quot; alt=&quot;docker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Agora vamos executando o script 
+&lt;p&gt;Agora vamos executando o script.
 &lt;img src=&quot;assets/docker-iniciando/docker_03.png&quot; alt=&quot;docker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Dependendo da sua internet a instalação pode demorar um pouco
+&lt;p&gt;Dependendo da sua internet a instalação pode demorar um pouco.
 &lt;img src=&quot;assets/docker-iniciando/docker_04.png&quot; alt=&quot;docker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Após o download e instalação do docker teremos a seguinte saida&lt;/p&gt;
+&lt;p&gt;Após o download e instalação do docker teremos a seguinte saida.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/docker-iniciando/docker_05.png&quot; alt=&quot;docker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;E pronto já temos o docker instalado e rodando em nossa maquina, para facilitar nossa vida vamos incluir nosso usuario no grupo do docker (isso é necessário para conseguir usar o comando docker sem sudo) se vc observou bem o comando necessário para isso está no final da imagem acima&lt;/p&gt;
+&lt;p&gt;E pronto já temos o docker instalado e rodando em nossa maquina, para facilitar nossa vida vamos incluir nosso usuario no grupo do docker (isso é necessário para conseguir usar o comando docker sem sudo) se vc observou bem o comando necessário para isso está no final da imagem acima.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/docker-iniciando/docker_06.png&quot; alt=&quot;docker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Podemos ver se docker está realmente instalado com seguinte comando&lt;/p&gt;
+&lt;p&gt;Podemos ver se docker está realmente instalado com seguinte comando.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/docker-iniciando/docker_07.png&quot; alt=&quot;docker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Se digitarmos somente o comando docker no terminal poderemos ver um help com todos as suas opções e subcomandos&lt;/p&gt;
+&lt;p&gt;Se digitarmos somente o comando docker no terminal poderemos ver um help com todos as suas opções e subcomandos.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/docker-iniciando/docker_08.png&quot; alt=&quot;docker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Um outro comando interessante é o docker info que retorna informações gerais sobre o docker instalado&lt;/p&gt;
+&lt;p&gt;Um outro comando interessante é o docker info que retorna informações gerais sobre o docker instalado.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/docker-iniciando/docker_09.png&quot; alt=&quot;docker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Agora que ja passamos pela instalação e ja confirmamos que o docker esta rodando vamos faze o famoso “helloWorld” com docker&lt;/p&gt;
+&lt;p&gt;Agora que ja passamos pela instalação e ja confirmamos que o docker esta rodando vamos faze o famoso “helloWorld” com docker.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/docker-iniciando/docker_10.png&quot; alt=&quot;docker&quot; /&gt;&lt;/p&gt;
 
