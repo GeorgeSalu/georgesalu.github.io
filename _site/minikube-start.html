@@ -38,55 +38,55 @@
 
 <p><img src="assets/minikube-start/minikube_kubernetes_00.png" alt="minikube" /></p>
 
-<p>a primeira etapa para criarmos um cluster kubernetes é instalar o kubectl, mas o que é kubectl ?, kubectl é o software resposavel por “conversar” com o cluster kubernetes a partir de um computador local.</p>
+<p>A primeira etapa para criarmos um cluster kubernetes é instalar o kubectl, mas o que é kubectl ?, kubectl é o software resposavel por “conversar” com o cluster kubernetes a partir de um computador local.</p>
 
 <p><img src="assets/minikube-start/minikube_kubernetes_01.png" alt="minikube" /></p>
 
-<p>dependendo da sua internet isso pode demorar um pouco.</p>
+<p>Dependendo da sua internet isso pode demorar um pouco.</p>
 
 <p><img src="assets/minikube-start/minikube_kubernetes_02.png" alt="minikube" /></p>
 
-<p>apos fazer o download vamos torna o binário executável.</p>
+<p>Apos fazer o download vamos torna o binário executável.</p>
 
 <p><img src="assets/minikube-start/minikube_kubernetes_03.png" alt="minikube" /></p>
 
-<p>agora basta movermos para o diretório /usr/local/bin/kubectl com isso terminámos a instalação do kubectl</p>
+<p>Agora basta movermos para o diretório /usr/local/bin/kubectl com isso terminámos a instalação do kubectl.</p>
 
 <p><img src="assets/minikube-start/minikube_kubernetes_04.png" alt="minikube" /></p>
 
-<p>com o comando <code class="highlighter-rouge">kubectl version</code> podemos ter as informações basicas do kubectl instalado</p>
+<p>Com o comando <code class="highlighter-rouge">kubectl version</code> podemos ter as informações basicas do kubectl instalado.</p>
 
 <p><img src="assets/minikube-start/minikube_kubernetes_05.png" alt="minikube" /></p>
 
-<p>para fazer o cluster vamos usar o projeto open source minikube, o minikube vai um software de virtualização para criar um cluster kubernetes de um no único, aqui vamos usar o virtualbox para este processo, é bom lembrar que o minikube não é recomendado para ser usado em ambiente de produção, ele simula um cluster de no único com tudo o que é necessario já instalado e funcionando.</p>
+<p>Para fazer o cluster vamos usar o projeto open source minikube, o minikube vai um software de virtualização para criar um cluster kubernetes de um no único, aqui vamos usar o virtualbox para este processo, é bom lembrar que o minikube não é recomendado para ser usado em ambiente de produção, ele simula um cluster de no único com tudo o que é necessario já instalado e funcionando.</p>
 
 <p><img src="assets/minikube-start/minikube_kubernetes_06.png" alt="minikube" /></p>
 
-<p>antes de prosseguir vamos conferir se a virtualização está liberada em nossa maquina com o seguinte comando <code class="highlighter-rouge">egrep -q 'vmx|svm' /proc/cpuinfo &amp;&amp; echo yes || echo no</code></p>
+<p>Antes de prosseguir vamos conferir se a virtualização está liberada em nossa maquina com o seguinte comando. <code class="highlighter-rouge">egrep -q 'vmx|svm' /proc/cpuinfo &amp;&amp; echo yes || echo no</code></p>
 
 <p><img src="assets/minikube-start/minikube_kubernetes_07.png" alt="minikube" /></p>
 
-<p>depois que vimos que a virtualização está habilitada vamos fazer a instalação do minikube</p>
+<p>Depois que vimos que a virtualização está habilitada vamos fazer a instalação do minikube.</p>
 
 <p><img src="assets/minikube-start/minikube_kubernetes_08.png" alt="minikube" /></p>
 
-<p>apos fazer o processo do download e feita a instalação conseguiremos ver a versão do minikube instalado com o comando <code class="highlighter-rouge">minikube version</code></p>
+<p>Apos fazer o processo do download e feita a instalação conseguiremos ver a versão do minikube instalado com o comando <code class="highlighter-rouge">minikube version</code>.</p>
 
 <p><img src="assets/minikube-start/minikube_kubernetes_09.png" alt="minikube" /></p>
 
-<p>com o miniukube instalado vamos informar que iremos usar o virtualbox para virtualização</p>
+<p>Com o miniukube instalado vamos informar que iremos usar o virtualbox para virtualização.</p>
 
 <p><img src="assets/minikube-start/minikube_kubernetes_10.png" alt="minikube" /></p>
 
-<p>feito isso basta usar o camando <code class="highlighter-rouge">minikube start</code> para criarmos o cluster, este processo pode demorar um pouco</p>
+<p>Feito isso basta usar o camando <code class="highlighter-rouge">minikube start</code> para criarmos o cluster, este processo pode demorar um pouco.</p>
 
 <p><img src="assets/minikube-start/minikube_kubernetes_11.png" alt="minikube" /></p>
 
-<p>com o cluster instalado e funcionando podemos usar o comando <code class="highlighter-rouge">minikube status</code> para obter informações do cluster</p>
+<p>Com o cluster instalado e funcionando podemos usar o comando <code class="highlighter-rouge">minikube status</code> para obter informações do cluster.</p>
 
 <p><img src="assets/minikube-start/minikube_kubernetes_12.png" alt="minikube" /></p>
 
-<p>Isso é tudo, ja temos nosso cluster kubernetes local instalado e funcionando</p>
+<p>Isso é tudo, ja temos nosso cluster kubernetes local instalado e funcionando.</p>
 
 
 </article>
