@@ -13,55 +13,55 @@
     
       <item>
         <title>SDKMan — Gerenciando sdks na plataforma Java</title>
-        <description>&lt;p&gt;O grande objetivo do skdman é facilitar a instalação de ferramentas e ou linguagens que funcionam na jvm como as linguagens java, scala, groovy, kotlin e ferramentas como gradle, maven e etc, podemos encontrar o sdkman no site &lt;code class=&quot;highlighter-rouge&quot;&gt;https://sdkman.io/&lt;/code&gt;&lt;/p&gt;
+        <description>&lt;p&gt;O grande objetivo do skdman é facilitar a instalação de ferramentas e ou linguagens que funcionam na jvm como as linguagens java, scala, groovy, kotlin e ferramentas como gradle, maven e etc, podemos encontrar o sdkman no site &lt;code class=&quot;highlighter-rouge&quot;&gt;https://sdkman.io/&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_00.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;o sdkman é um projeto open source e hospedado no github onde podemos encontrar todos as informações do projeto&lt;/p&gt;
+&lt;p&gt;O sdkman é um projeto open source e hospedado no github onde podemos encontrar todas as informações do projeto.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_01.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;para instalar é bem simples basta usar o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;curl -s https://get.sdkman.io | bash&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Para instalar é bem simples basta usar o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;curl -s https://get.sdkman.io | bash&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_02.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;assim que o sdkman for instalado com sucesso teremos a seguinte saida&lt;/p&gt;
+&lt;p&gt;Assim que o sdkman for instalado com sucesso teremos a seguinte saída.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_03.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;sdkman version&lt;/code&gt; poderemos ver a versão do sdkman instalado&lt;/p&gt;
+&lt;p&gt;Com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;sdkman version&lt;/code&gt; poderemos ver a versão do sdkman instalado.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_04.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;com o sdkman instalado vamos a missão de instalado o jdk 13 que é a ultima versão lançada ate o momento, com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;sdk list java&lt;/code&gt; podemos ver os vendor e as versões disponiveis para instalação&lt;/p&gt;
+&lt;p&gt;Com o sdkman instalado vamos a missão de instalar o jdk 13 que é a ultima versão lançada ate o momento, com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;sdk list java&lt;/code&gt; podemos ver os vendor e as versões disponíveis para instalação.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_05.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;sdk install java 13.0.1.j9-adpt&lt;/code&gt; o sdkman fara o download e instalação do jdk 13&lt;/p&gt;
+&lt;p&gt;Com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;sdk install java 13.0.1.j9-adpt&lt;/code&gt; o sdkman fará o download e instalação do jdk 13.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_06.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;usando o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;java --version&lt;/code&gt; podemos ver que o sdkman fez a instalação e ainda colocou no path do sistema&lt;/p&gt;
+&lt;p&gt;Usando o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;java --version&lt;/code&gt; podemos ver que o sdkman fez a instalação e ainda colocou no path do sistema.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_07.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;vamos explorar mas um pouco os recursos do sdkman, vamos instalar o maven, com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;sdk list maven&lt;/code&gt; podemos listar todos as versões do maven disponiveis para instalação&lt;/p&gt;
+&lt;p&gt;Vamos explorar mais um pouco os recursos do sdkman, vamos instalar o maven, com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;sdk list maven&lt;/code&gt; podemos listar todos as versões do maven disponíveis para instalação.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_08.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;podemos passar a versão que queremos instalar para o sdkman ou usar o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;sdk install maven&lt;/code&gt; para instalar a ultima versão do maven&lt;/p&gt;
+&lt;p&gt;Podemos passar a versão que queremos instalar para o sdkman ou usar o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;sdk install maven&lt;/code&gt; para instalar a última versão do maven.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_09.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;mvn -version&lt;/code&gt; podemos ver a versão do maven instalado&lt;/p&gt;
+&lt;p&gt;Com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;mvn -version&lt;/code&gt; podemos ver a versão do maven instalado.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_10.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;com o sdkman podemos instalar muitas outras linguagens como kotlin, scala e ferramentas como maven e gradle, abaixo podemos ver todas as versões do gradle que conseguimos instalar com ajuda do sdkman&lt;/p&gt;
+&lt;p&gt;Com o sdkman podemos instalar muitas outras linguagens como kotlin, scala e ferramentas como maven e gradle, abaixo podemos ver todas as versões do gradle que conseguimos instalar com ajuda do sdkman.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/sdkman/sdkman_11.png&quot; alt=&quot;sdkman&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;como podemos ver o sdkman facilita muito nossa vida.&lt;/p&gt;
+&lt;p&gt;Como podemos ver o sdkman facilita muito nossa vida.&lt;/p&gt;
 </description>
         <pubDate>Fri, 31 Jan 2020 00:00:00 -0300</pubDate>
         <link>//sdman</link>
