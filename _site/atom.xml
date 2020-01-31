@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programmer | Code</title>
-    <description>Este é mais um blog dedicado ao desenvolvimento web, ao DevOps, ao GNU/Linux e ao Software Livre</description>
+    <description>Este é mais um blog dedicado ao desenvolvimento web e ao DevOps</description>
     <link></link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     <author>
