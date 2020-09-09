@@ -1,8 +1,8 @@
 ---
 layout: search
-title: Search
-permalink: /search/
-subtitle: "What are you looking for?"
+title: Procurar
+permalink: /procurar/
+subtitle: "O que você está procurando?"
 feature-img: "assets/img/pexels/search-map.jpeg"
 icon: "fa-search"
 ---
