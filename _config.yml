@@ -4,7 +4,7 @@ url: "https://georgesalu.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Programmer | Code                                    # site's title
-description: "Este é mais um blog dedicado ao desenvolvimento back-end e ao DevOps"      # used by search engines
+description: "Este é mais um blog dedicado a área de tecnologia"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
