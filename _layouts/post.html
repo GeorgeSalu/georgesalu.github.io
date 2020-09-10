@@ -8,11 +8,9 @@ layout: default
       <div class="feature-image-padding"></div>
       {% else %}
       <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
-      
       <time datetime="{{ page.date | date_to_xmlschema }}">
         {% include data.html date=page.date %}
-     </time>
-     
+      </time>   
       {% endif %}
     </div>
   </header>

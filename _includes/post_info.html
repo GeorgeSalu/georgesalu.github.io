@@ -10,8 +10,7 @@
       {% if author.name %}{{ author.name }} - {% endif %}
       <time datetime="{{ post.date | date_to_xmlschema }}">
         {% include data.html date=post.date %}
-     </time>
-     
+      </time>
     </p>
   {%- if author.url -%}</a>{%- endif -%}
 </div>
