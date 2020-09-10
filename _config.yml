@@ -21,6 +21,7 @@ googleplus_username:
 disqus_username: disqus_RddXqeUbaT
 
 permalink: /:title
+language: "pt-br"
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
